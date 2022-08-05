@@ -14,7 +14,7 @@ mongoose.connect("mongodb://localhost:27017/uploads"),
 app.use(require("./routes"));
 
 app.get("/", (req, res) => {
-  return res.send("hello family");
+  return res.send("db functional");
 });
 
 app.listen("3000");
